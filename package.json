@@ -1,0 +1,22 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "get theme shopify :\r theme get --password=shptka_2cef0e2c24b2a879c31292efd7f7b836 --store=https://themedev2023.myshopify.com/ --themeid=150872457517\r theme configure file :\r theme configure -s themedev2023.myshopify.com -t 150872457517 -p shptka_2cef0e2c24b2a879c31292efd7f7b836\r theme any change:\r theme watch\r theme track any change or live:\r theme watch --allow-live",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.9"
+  }
+}
